@@ -14,11 +14,22 @@ span {
   background-color: #33dbfa;
   border-color: #26a4bb;
 }
-/* line 7, ../sass/partials/_mixins.scss */
+/* line 11, ../sass/partials/_mixins.scss */
+.button-lindt, .button-scharffen-berger, .button-perugira, .button-ferrero {
+  border: 1px solid;
+  border-radius: 5px;
+  padding: .25em .5em;
+  text-align: center;
+}
+/* line 24, ../sass/partials/_mixins.scss */
+.button-lindt:hover, .button-scharffen-berger:hover, .button-perugira:hover, .button-ferrero:hover {
+  cursor: pointer;
+}
+/* line 24, ../sass/partials/_mixins.scss */
 .button-lindt:hover {
   cursor: pointer;
 }
-/* line 17, ../sass/partials/_mixins.scss */
+/* line 37, ../sass/partials/_mixins.scss */
 .button-lindt:hover {
   cursor: pointer;
   background-color: #2bbad4;
@@ -34,11 +45,11 @@ span {
   background-color: #ffb18a;
   border-color: #bf8467;
 }
-/* line 7, ../sass/partials/_mixins.scss */
+/* line 24, ../sass/partials/_mixins.scss */
 .button-scharffen-berger:hover {
   cursor: pointer;
 }
-/* line 17, ../sass/partials/_mixins.scss */
+/* line 37, ../sass/partials/_mixins.scss */
 .button-scharffen-berger:hover {
   cursor: pointer;
   background-color: #d89675;
@@ -54,11 +65,11 @@ span {
   background-color: #627aac;
   border-color: #495b81;
 }
-/* line 7, ../sass/partials/_mixins.scss */
+/* line 24, ../sass/partials/_mixins.scss */
 .button-perugira:hover {
   cursor: pointer;
 }
-/* line 17, ../sass/partials/_mixins.scss */
+/* line 37, ../sass/partials/_mixins.scss */
 .button-perugira:hover {
   cursor: pointer;
   background-color: #536792;
@@ -74,11 +85,11 @@ span {
   background-color: #f47673;
   border-color: #b75856;
 }
-/* line 7, ../sass/partials/_mixins.scss */
+/* line 24, ../sass/partials/_mixins.scss */
 .button-ferrero:hover {
   cursor: pointer;
 }
-/* line 17, ../sass/partials/_mixins.scss */
+/* line 37, ../sass/partials/_mixins.scss */
 .button-ferrero:hover {
   cursor: pointer;
   background-color: #cf6461;

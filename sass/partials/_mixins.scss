@@ -1,22 +1,43 @@
 
 @mixin button-static {
+
+  $button-selector: map-get($Placeholder-Selectors, 'button');
+
+  @if $button-selector == null {
+
+    $button-selector: unique-id();
+    $Placeholder-Selectors: map-merge($Placeholder-Selectors, ('button': $button-selector)) !global;
+
+    @at-root %#{$button-selector} {
+      @include button-static;
+    }
+
+  }
+
+  @extend %#{$button-selector};
+
   border: 1px solid;
   border-radius: 5px;
   padding: .25em .5em;
   text-align: center;
+
   &:hover {
     cursor: pointer;
   }
+
 }
 
 
 @mixin button($color) {
+
   @include button-static;
   background-color: $color;
   border-color: mix(black, $color, 25%);
+
   &:hover {
     cursor: pointer;
     background-color: mix(black, $color, 15%);
     border-color: mix(black, $color, 40%);
   }
+
 }
