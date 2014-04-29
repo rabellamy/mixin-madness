@@ -7,10 +7,6 @@ span {
 
 /* line 11, ../sass/style.scss */
 .button-lindt {
-  border: 1px solid;
-  border-radius: 5px;
-  padding: .25em .5em;
-  text-align: center;
   background-color: #33dbfa;
   border-color: #26a4bb;
 }
@@ -19,17 +15,12 @@ span {
   border: 1px solid;
   border-radius: 5px;
   padding: .25em .5em;
-  text-align: center;
 }
-/* line 24, ../sass/partials/_mixins.scss */
+/* line 25, ../sass/partials/_mixins.scss */
 .button-lindt:hover, .button-scharffen-berger:hover, .button-perugira:hover, .button-ferrero:hover {
   cursor: pointer;
 }
-/* line 24, ../sass/partials/_mixins.scss */
-.button-lindt:hover {
-  cursor: pointer;
-}
-/* line 37, ../sass/partials/_mixins.scss */
+/* line 39, ../sass/partials/_mixins.scss */
 .button-lindt:hover {
   cursor: pointer;
   background-color: #2bbad4;
@@ -38,18 +29,10 @@ span {
 
 /* line 15, ../sass/style.scss */
 .button-scharffen-berger {
-  border: 1px solid;
-  border-radius: 5px;
-  padding: .25em .5em;
-  text-align: center;
   background-color: #ffb18a;
   border-color: #bf8467;
 }
-/* line 24, ../sass/partials/_mixins.scss */
-.button-scharffen-berger:hover {
-  cursor: pointer;
-}
-/* line 37, ../sass/partials/_mixins.scss */
+/* line 39, ../sass/partials/_mixins.scss */
 .button-scharffen-berger:hover {
   cursor: pointer;
   background-color: #d89675;
@@ -58,18 +41,10 @@ span {
 
 /* line 19, ../sass/style.scss */
 .button-perugira {
-  border: 1px solid;
-  border-radius: 5px;
-  padding: .25em .5em;
-  text-align: center;
   background-color: #627aac;
   border-color: #495b81;
 }
-/* line 24, ../sass/partials/_mixins.scss */
-.button-perugira:hover {
-  cursor: pointer;
-}
-/* line 37, ../sass/partials/_mixins.scss */
+/* line 39, ../sass/partials/_mixins.scss */
 .button-perugira:hover {
   cursor: pointer;
   background-color: #536792;
@@ -78,18 +53,10 @@ span {
 
 /* line 23, ../sass/style.scss */
 .button-ferrero {
-  border: 1px solid;
-  border-radius: 5px;
-  padding: .25em .5em;
-  text-align: center;
   background-color: #f47673;
   border-color: #b75856;
 }
-/* line 24, ../sass/partials/_mixins.scss */
-.button-ferrero:hover {
-  cursor: pointer;
-}
-/* line 37, ../sass/partials/_mixins.scss */
+/* line 39, ../sass/partials/_mixins.scss */
 .button-ferrero:hover {
   cursor: pointer;
   background-color: #cf6461;
