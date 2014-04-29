@@ -1,0 +1,25 @@
+
+@import "partials/variables";
+@import "partials/mixins";
+
+span {
+  display: block;
+  max-width: 200px;
+  margin: 3em auto 0 auto;
+}
+
+.button-lindt {
+  @include button($blue);
+}
+
+.button-scharffen-berger {
+  @include button($orange);
+}
+
+.button-perugira {
+  @include button($dark-blue);
+}
+
+.button-ferrero {
+  @include button($red);
+}
